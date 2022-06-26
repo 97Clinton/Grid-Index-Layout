@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Column Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+    html,
+    body {
+        background-color: rgba(255, 255, 255, 0.877);
+        height: 100%;
+        width: 100%;
+    }
+    
+    .container {
+        background-color: hsl(0, 0%, 95%);
+        width: 800px;
+        height: 480px;
+        margin-top: 30px;
+        margin-left: 150px;
+        padding-left: 150px;
+        text-align: left;
+        font-size: 15px;
+    }
+    
+    p {
+        color: hsla(0, 0%, 100%, 0.75);
+        font-family: 'Lexend Deca', sans-serif;
+    }
+    
+    h2 {
+        color: hsl(0, 0%, 95%);
+        font-family: 'Big Shoulders Display', cursive;
+    }
+    
+    h3 {
+        font-family: 'Big Shoulders Display', cursive;
+        text-align: center;
+        position: relative;
+        margin-bottom: 2px;
+        /*top: 20px;*/
+        font-size: 50px;
+    }
+    
+    header {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .grid {
+        color: black;
+    }
+    
+    button {
+        background-color: hsl(0, 0%, 95%);
+        border: 0px;
+        border-radius: 20px;
+        height: 23px;
+        font-family: 'Lexend Deca', sans-serif;
+        margin-top: 50px;
+        width: 90px;
+        font-size: 10px;
+    }
+    
+    button:hover {
+        background-color: transparent;
+        border: 1px solid white;
+        cursor: pointer;
+        color: white;
+    }
+    
+    .col {
+        padding-top: 40px;
+        padding-left: 70px;
+        display: flex;
+        width: auto;
+    }
+    
+    .col1 {
+        border: 0px;
+        background-color: hsl(31, 77%, 52%);
+        padding: 20px;
+        height: 340px;
+        width: 150px;
+        padding-left: 15px;
+    }
+    
+    .col2 {
+        border: 0px;
+        background-color: hsl(184, 100%, 22%);
+        padding: 20px;
+        height: 340px;
+        width: 150px;
+        padding-left: 15px;
+    }
+    
+    .col3 {
+        border: 0px;
+        background-color: hsl(179, 100%, 13%);
+        padding: 20px;
+        height: 340px;
+        width: 150px;
+        padding-left: 15px;
+    }
+</style>
+
+<body>
+    <header>
+        <h3>COLUMN CARD</h3>
+        <a href="http://127.0.0.1:5500/.vscode/index-Grid%20layout/Grid.html" class="grid">Click to view the GRID LAYOUT.</a>
+    </header>
+
+    <div class="container">
+        <div class="col">
+            <div class="col1">
+                <img src="icon-sedans.png" alt="icon-sedans">
+                <h2>SEDANS</h2>
+                <p>
+                    Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.
+                </p>
+                <button> Learn More </button>
+            </div>
+            <div class="col2 ">
+                <img src="icon-suvs.png" alt="icon-suvs">
+                <h2>SUVS</h2>
+                <p>
+                    Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.
+                </p>
+                <button> Learn More </button>
+            </div>
+            <div class="col3">
+                <img src="icon-luxury.png" alt="icon-luxury">
+                <h2>LUXURY</h2>
+                <p>
+                    Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.
+                </p>
+                <button> Learn More </button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
